@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4da38f6b-79d2-463c-b1ed-4c58e9cb29df" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/BubbleSort/BubbleSort.class" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/SortStrategy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/StringSortStrategy.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BubbleSort/FloatSort.class" afterPath="$PROJECT_DIR$/out/production/BubbleSort/FloatSort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BubbleSort/IntegerSort.class" afterPath="$PROJECT_DIR$/out/production/BubbleSort/IntegerSort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BubbleSort/StringSort.class" afterPath="$PROJECT_DIR$/out/production/BubbleSort/StringSort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BubbleSort.java" afterPath="$PROJECT_DIR$/src/BubbleSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FloatSort.java" afterPath="$PROJECT_DIR$/src/FloatSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/IntegerSort.java" afterPath="$PROJECT_DIR$/src/IntegerSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StringSort.java" afterPath="$PROJECT_DIR$/src/StringSort.java" />
     </list>
     <ignored path="BubbleSort.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -511,6 +500,11 @@
       <created>1358445609949</created>
       <updated>1358445609949</updated>
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1359491778147</created>
+      <updated>1359491778148</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
