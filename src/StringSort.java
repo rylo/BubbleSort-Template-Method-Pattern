@@ -1,32 +1,26 @@
-public class StringSort {
+import java.util.ArrayList;
 
-    public static void main(String[] args){
-        String[] stringArray = {"mario", "luigi", "princess", "toad", "bowser"};
+class StringBubbleSort extends BubbleSort {
+
+    void main(ArrayList collectionToSort){
         String first, second;
         boolean swapHappened = true;
 
         while(swapHappened){
             swapHappened = false;
 
-            for(int x = 0; x < (stringArray.length - 1); x++) {
-                first = stringArray[x];
-                second = stringArray[x+1];
+            for(int x = 0; x < (collectionToSort.size() - 1); x++) {
+                first = collectionToSort.get(x).toString();
+                second = collectionToSort.get(x+1).toString();
 
-                if () {
-                    stringArray[x] = second;
-                    stringArray[x+1] = first;
+                if (first.compareToIgnoreCase(second) > 0) {
+                    collectionToSort.set(x, second);
+                    collectionToSort.set(x+1, first);
                     swapHappened = true;
                 }
             }
         }
-        printArray(stringArray);
-    }
-
-    public static void printArray(String[] arrayToPrint){
-        System.out.println("Outcome:");
-        for(int x = 0; x < arrayToPrint.length; x++) {
-            System.out.println(arrayToPrint[x]);
-        }
+        printArray(collectionToSort);
     }
 
 }
